@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(9, 35, 73);
+  background-image: url(Green\ checker\ board.jpeg);
+
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+  color: rgb(9, 35, 73);
+}
+button {
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 5px;
+  box-shadow: 0px 4px 10px rgb(9, 35, 73);
+  margin: 20px;
+}
+
+button:hover {
+  scale: 0.9;
+}
+
+img {
+  width: 320px;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+.generate-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.read-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+.section {
+  border: 2px solid;
+  border-radius: 20px;
+  width: 450px;
+  height: fit-content;
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.5);
+}
+input {
+  width: 200px;
+  min-height: 30px;
+  background: local;
+  border-radius: 20px;
+}
+.the-qr {
+  display: block;
+  border: 1px dashed rgb(9, 35, 73);
+  border-radius: 20px;
+}
+.qr-result {
+  border: 1px dashed rgb(9, 35, 73);
+  border-radius: 20px;
+  width: 320px;
+  display: block;
+  margin: 10px 0;
+}
+.resultOfGenerating {
+  align-items: end;
+}
+.resultOfReading {
+  flex-direction: column;
+  align-items: center;
+}
+.input-img {
+  display: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+
+  margin: 0px auto;
+}
+.upload-label {
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  min-height: 30px;
+  text-align: center;
+}
+.upload-label:hover {
+  border: 3px solid rgb(9, 35, 73);
+}
